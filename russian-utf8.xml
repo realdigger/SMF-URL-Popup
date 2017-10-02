@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>Arantor:URLPopup</id>
+	<version>1.0</version>
+
+	<file name="$languagedir/Modifications.russian-utf8.php">
+		<operation>
+			<search position="end" />
+			<add><![CDATA[
+$txt['prompt_text_desc'] = 'Введите название для ссылки.';
+]]></add>
+		</operation>
+	</file>
+
+</modification>
